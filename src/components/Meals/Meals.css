@@ -12,9 +12,9 @@
 }
 
 .cart-container{
-    background-color: rgba(9, 9, 53, 0.925);
     color: white;
     margin: 50px 0;
+    background-color: rgba(9, 9, 53, 0.925);
 }
 
 /* Media Query */
