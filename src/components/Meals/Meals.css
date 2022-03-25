@@ -15,9 +15,14 @@
     color: white;
     margin: 50px 0;
     background-color: rgba(9, 9, 53, 0.925);
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
 }
 
 /* Media Query */
+
+/* Mobile Device */
 
 @media only screen and (max-width: 480px) {
     .meals-container {
@@ -30,7 +35,12 @@
         flex-direction: column;
         align-items: center;
     }
+    .cart-container {
+        width: 280px;
+    }
 }
+
+/* Tablet Device */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .meals-container {

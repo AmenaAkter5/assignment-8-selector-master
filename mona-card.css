@@ -1,0 +1,50 @@
+.product-container {
+    border-radius: 8px;
+    position: relative;
+    width: 300px;
+    height: 450px;
+    box-shadow: 2px 2px 5px #BABECC, 2px 2px 5px #BABECC;
+}
+
+.product {
+   padding: 10px;
+}
+
+.product img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.product-info {
+    margin-left: 5px;
+    position: relative;
+}
+
+.product-name {
+    font-size: 21px;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.brand-name {
+    color: hsl(210deg 100% 44%);
+}
+
+.product-button {
+    padding: .8rem;
+    width: 50%;
+    border: none;
+    background: hsl(210deg 100% 44%);
+    border-radius: 0px 8px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+}
