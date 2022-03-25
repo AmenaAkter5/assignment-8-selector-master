@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Pasta",
+        "price": 500,
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+    }
+]
