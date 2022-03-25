@@ -3,72 +3,72 @@
         "id": 1,
         "name": "Pasta",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg"
     },
     {
         "id": 2,
-        "name": "Pasta",
+        "name": "Fried Rice",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/sausage-fried-rice-with-tomatoes-carrots-shiitake-mushrooms-plate_1150-27184.jpg"
     },
     {
         "id": 3,
-        "name": "Pasta",
+        "name": "Biriani",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34705.jpg"
     },
     {
         "id": 4,
-        "name": "Pasta",
+        "name": "Baked chicken wings",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/baked-chicken-wings-asian-style-tomatoes-sauce-plate_2829-10657.jpg"
     },
     {
         "id": 5,
-        "name": "Pasta",
+        "name": "burger",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/fresh-tasty-homemade-burger-wooden-table_147620-84.jpg"
     },
     {
         "id": 6,
-        "name": "Pasta",
+        "name": "French fries",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/french-fries_1339-1403.jpg"
     },
     {
         "id": 7,
-        "name": "Pasta",
+        "name": "Halim (Lentil soup)",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/lentil-soup-with-mixed-ingredients-herbs-white-bowl-with-spoon_114579-3083.jpg"
     },
     {
         "id": 8,
-        "name": "Pasta",
+        "name": "Chili Chicken Curry",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/top-view-bozbash-soup-kitchen-towel-nude-background_140725-134821.jpg"
     },
     {
         "id": 9,
-        "name": "Pasta",
+        "name": "Chicken soup with vegetables",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/isolated-shot-white-bowl-with-hot-sour-soup-perfect-food-blog-menu-usage_181624-8524.jpg"
     },
     {
         "id": 10,
-        "name": "Pasta",
+        "name": "Mutton Curry",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/top-view-tasty-meat-soup-with-potatoes-seasonings_140725-135125.jpg"
     },
     {
         "id": 11,
-        "name": "Pasta",
+        "name": "Daal (Lentils soup)",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/top-view-delicious-lentils-soup-inside-plate-light-surface-plant-soup-color-photo-food-seed-dish_140725-108887.jpg"
     },
     {
         "id": 12,
-        "name": "Pasta",
+        "name": "Vegetable Salad",
         "price": 500,
-        "img": "https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg"
+        "img": "https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg"
     }
 ]

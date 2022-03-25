@@ -1,0 +1,46 @@
+
+.meals {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.meals-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    margin: 50px 30px;
+}
+
+.cart-container{
+    background-color: rgba(9, 9, 53, 0.925);
+    color: white;
+    margin: 50px 0;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 480px) {
+    .meals-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+    .meals {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .meals-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .meals {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

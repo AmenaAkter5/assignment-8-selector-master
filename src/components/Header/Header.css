@@ -2,7 +2,7 @@
 .header{
     color: white;
     height: 80px;
-    background-color: #1C2B35;
+    background-color: rgba(9, 9, 53, 0.925);
     display: flex;
     align-items: center;
     justify-content: space-between;
