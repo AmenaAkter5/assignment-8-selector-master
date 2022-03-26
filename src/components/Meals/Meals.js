@@ -11,6 +11,9 @@ const Meals = () => {
     // cart state
     const [cart, setCart] = useState([]);
 
+    // finally selected item state
+    const [selectOne, setSelectOne] = useState([]);
+
     // data fetch
     useEffect(() => {
         fetch('meals.json')
@@ -23,6 +26,15 @@ const Meals = () => {
         const newCart = [...cart, meal];
         setCart(newCart);
     };
+
+    // Choose btn event handler
+    const chooseOne = (cart) => {
+        // console.log(cart);
+        // Math.floor(Math.random() * 13)
+        const random = Math.floor(Math.random() * cart.length);
+        setSelectOne(cart[random]);
+        console.log(cart[random]);
+    }
 
     return (
         <div className="meals">
@@ -44,7 +56,11 @@ const Meals = () => {
                     ></Cart>)
                 }
                 <div>
-                    <button>Choose For Me</button>
+                    <div className="cart">
+                        {/* <img src={img} alt="" /> */}
+                        <h4>{selectOne.name}</h4>
+                    </div>
+                    <button onClick={() => chooseOne(cart)}>Choose For Me</button>
                 </div>
                 <button>Reset</button>
             </div>
