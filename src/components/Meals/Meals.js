@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Meal from '../Meal/Meal';
+import RandomItem from '../RandomItem/RandomItem';
 import './Meals.css';
 
 const Meals = () => {
@@ -11,8 +12,8 @@ const Meals = () => {
     // cart state
     const [cart, setCart] = useState([]);
 
-    // finally selected item state
-    const [selectOne, setSelectOne] = useState([]);
+    // randomly selected item state
+    const [randomSelect, setRandomSelect] = useState([]);
 
     // data fetch
     useEffect(() => {
@@ -27,13 +28,10 @@ const Meals = () => {
         setCart(newCart);
     };
 
-    // Choose btn event handler
-    const chooseOne = (cart) => {
-        // console.log(cart);
-        // Math.floor(Math.random() * 13)
+    // Random Choose btn event handler
+    const randomChoose = (cart) => {
         const random = Math.floor(Math.random() * cart.length);
-        setSelectOne(cart[random]);
-        console.log(cart[random]);
+        setRandomSelect(cart[random]);
     }
 
     return (
@@ -56,11 +54,12 @@ const Meals = () => {
                     ></Cart>)
                 }
                 <div>
-                    <div className="cart">
-                        {/* <img src={img} alt="" /> */}
-                        <h4>{selectOne.name}</h4>
-                    </div>
-                    <button onClick={() => chooseOne(cart)}>Choose For Me</button>
+                    <h2>Random Selector</h2>
+                    <RandomItem
+                        key={randomSelect.id}
+                        randomSelect={randomSelect}
+                    ></RandomItem>
+                    <button onClick={() => randomChoose(cart)}>Choose For Me</button>
                 </div>
                 <button>Reset</button>
             </div>

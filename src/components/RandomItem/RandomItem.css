@@ -1,0 +1,32 @@
+.random {
+    display: flex;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.random img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 480px) {
+    .random {
+        width: 300px;
+    }
+    .random img {
+        width: 100px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .random {
+        width: 600px;
+    }
+    .random img {
+        width: 100px;
+        margin-right: 20px;
+    }
+}
