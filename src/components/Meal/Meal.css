@@ -1,8 +1,8 @@
 
 .meal {
     width: 300px;
-    height: 520px;
-    border: 1px solid #95A0A7;
+    height: 470px;
+    box-shadow: 2px 2px 5px #BABECC, 2px 2px 5px #BABECC;
     box-sizing: border-box;
     border-radius: 8px;
     position: relative;

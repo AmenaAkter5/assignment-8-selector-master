@@ -1,6 +1,8 @@
 
 .blog-title {
     text-align: center;
+    font-size: 40px;
+    color: rgba(9, 9, 53, 0.925);
 }
 
 .blog-container {
@@ -15,4 +17,33 @@
     border-radius: 8px;
     padding: 40px;
     box-shadow: 2px 2px 5px #BABECC, 2px 2px 5px #BABECC;
+}
+
+
+/* Media Query */
+
+/* Mobile Device */
+
+@media only screen and (max-width: 480px) {
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+}
+
+/* Tablet Device */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);;
+        gap: 30px;
+    }
 }
