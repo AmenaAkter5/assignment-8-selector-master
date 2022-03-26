@@ -1,0 +1,18 @@
+
+.blog-title {
+    text-align: center;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin: 50px;
+}
+
+.blog {
+    text-align: justify;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 2px 2px 5px #BABECC, 2px 2px 5px #BABECC;
+}
