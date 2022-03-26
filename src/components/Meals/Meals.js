@@ -34,6 +34,14 @@ const Meals = () => {
         setRandomSelect(cart[random]);
     }
 
+    // reset btn event handler
+    const resetAll = (cart, randomSelect) => {
+        cart = [];
+        randomSelect = [];
+        setCart(cart);
+        setRandomSelect(randomSelect);
+    }
+
     return (
         <div className="meals">
             <div className="meals-container">
@@ -55,13 +63,15 @@ const Meals = () => {
                 }
                 <div>
                     <h2>Random Selector</h2>
-                    <RandomItem
-                        key={randomSelect.id}
-                        randomSelect={randomSelect}
-                    ></RandomItem>
-                    <button onClick={() => randomChoose(cart)}>Choose For Me</button>
+                    {
+                        <RandomItem
+                            key={randomSelect.id}
+                            randomSelect={randomSelect}
+                        ></RandomItem>
+                    }
+                    <button className="random-btn" onClick={() => randomChoose(cart)}>Choose For Me</button>
                 </div>
-                <button>Reset</button>
+                <button className="reset-btn" onClick={() => resetAll(cart, randomSelect)}>Reset</button>
             </div>
         </div>
     );

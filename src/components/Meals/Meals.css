@@ -20,6 +20,40 @@
     padding: 30px 20px;
 }
 
+.random-btn {
+    width: 100%;
+    background-color: white;
+    color: rgba(9, 9, 53, 0.925);
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.random-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+.reset-btn {
+    width: 100%;
+    background-color: white;
+    color: red;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 10px;
+}
+
+.reset-btn:hover {
+    background-color: red;
+    color: white;
+}
+
 /* Media Query */
 
 /* Mobile Device */
