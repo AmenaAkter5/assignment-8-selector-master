@@ -32,6 +32,7 @@
 
 .card-btn {
     width: 100%;
+    font-size: 14px;
     color: white;
     background-color: rgba(9, 9, 53, 0.925);
     border: 1px solid #95A0A7;

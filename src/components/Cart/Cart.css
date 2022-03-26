@@ -12,6 +12,8 @@
 
 /* Media Query */
 
+/* Mobile Device */
+
 @media screen and (max-width: 480px) {
     .cart {
         width: 300px;
@@ -21,6 +23,8 @@
         margin-right: 20px;
     }
 }
+
+/* Tablet Device */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .cart {

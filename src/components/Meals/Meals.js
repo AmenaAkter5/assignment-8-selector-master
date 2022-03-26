@@ -4,6 +4,7 @@ import Meal from '../Meal/Meal';
 import RandomItem from '../RandomItem/RandomItem';
 import './Meals.css';
 
+
 const Meals = () => {
 
     // data load state
@@ -22,6 +23,7 @@ const Meals = () => {
             .then(data => setMeals(data))
     }, []);
 
+
     // add to cart btn event handler
     const addToCart = (meal) => {
         const newCart = [...cart, meal];
@@ -30,6 +32,12 @@ const Meals = () => {
 
     // Random Choose btn event handler
     const randomChoose = (cart) => {
+
+        // button click handle if cart array is empty
+        if (cart.length === 0) {
+            return;
+        };
+
         const random = Math.floor(Math.random() * cart.length);
         setRandomSelect(cart[random]);
     }
@@ -54,24 +62,28 @@ const Meals = () => {
                 }
             </div>
             <div className="cart-container">
-                <h2>Selected Items</h2>
-                {
-                    cart.map(meal => <Cart
-                        key={meal.id}
-                        meal={meal}
-                    ></Cart>)
-                }
-                <div>
-                    <h2>Random Selector</h2>
-                    {
-                        <RandomItem
-                            key={randomSelect.id}
-                            randomSelect={randomSelect}
-                        ></RandomItem>
-                    }
-                    <button className="random-btn" onClick={() => randomChoose(cart)}>Choose For Me</button>
+                <div className="cart-info">
+                    <div>
+                        <h2>Selected Items</h2>
+                        {
+                            cart.map(meal => <Cart
+                                key={meal.id}
+                                meal={meal}
+                            ></Cart>)
+                        }
+                    </div>
+                    <div>
+                        <h2>Random Selector</h2>
+                        {
+                            <RandomItem
+                                key={randomSelect.id}
+                                randomSelect={randomSelect}
+                            ></RandomItem>
+                        }
+                        <button className="random-btn" onClick={() => randomChoose(cart)}>Choose For Me</button>
+                        <button className="reset-btn" onClick={() => resetAll(cart, randomSelect)}>Reset</button>
+                    </div>
                 </div>
-                <button className="reset-btn" onClick={() => resetAll(cart, randomSelect)}>Reset</button>
             </div>
         </div>
     );

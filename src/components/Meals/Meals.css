@@ -15,6 +15,9 @@
     color: white;
     margin: 50px 0;
     background-color: rgba(9, 9, 53, 0.925);
+}
+
+.cart-info {
     position: sticky;
     top: 0;
     padding: 30px 20px;
@@ -26,7 +29,7 @@
     color: rgba(9, 9, 53, 0.925);
     border: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 8px;
     padding: 7px;
     margin: 5px;
@@ -43,7 +46,7 @@
     color: red;
     border: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 8px;
     padding: 7px;
     margin: 10px;
@@ -59,16 +62,18 @@
 /* Mobile Device */
 
 @media only screen and (max-width: 480px) {
-    .meals-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 40px;
-    }
     .meals {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    .meals-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+    
     .cart-container {
         width: 280px;
     }
@@ -77,14 +82,23 @@
 /* Tablet Device */
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .meals {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .meals-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
-    .meals {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+    .random-btn {
+        width: 75%;
+    }
+
+    .reset-btn {
+        width: 75%;
     }
 }

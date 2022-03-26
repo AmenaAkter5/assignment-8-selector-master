@@ -50,3 +50,59 @@
 }
 
 /* Math.floor(Math.random() * 13) */
+
+
+/* Amena */
+
+/* --------------------------
+     MEDIA QUERIES
+----------------------------- */
+
+
+/* Mobile Devices */
+
+
+@media only screen and (max-width: 688px) {
+    
+    .container{
+        width: 100%;
+    }
+  
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .player, .blog{
+        flex-direction: column;
+    }
+  }
+  
+  
+  /* Tablet Devices */
+  
+  
+  @media only screen and (min-width: 688px) and (max-width: 992px) {
+    
+    .container{
+        width: 100%;
+    }
+    
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  
+  /* for format */
+  
+  /* 
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+      .header a {
+          display: none;
+      }
+      .header {
+          display: flex;
+          justify-content: center;
+      }
+  } 
+  */
