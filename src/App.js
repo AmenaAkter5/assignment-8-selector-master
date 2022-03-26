@@ -1,6 +1,7 @@
 
 import './App.css';
 import Header from './components/Header/Header';
+import JsConcepts from './components/JsConcepts/JsConcepts';
 import Meals from './components/Meals/Meals';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header></Header>
       <Meals></Meals>
+      <JsConcepts></JsConcepts>
     </div>
   );
 }
