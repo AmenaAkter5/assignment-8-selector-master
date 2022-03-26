@@ -6,6 +6,9 @@ const ReactConcepts = () => {
         <div className="blog-section">
             <h1 className="blog-title">React Concepts</h1>
             <div className="blog-container">
+
+                {/* How React Works */}
+
                 <article className="blog">
                     <h1>How React Works</h1>
                     <p>React is an open-source JavaScript package that is used to create single-page applications user interfaces.
@@ -13,6 +16,9 @@ const ReactConcepts = () => {
                     </p>
                     <p>In React, instead of using regular JavaScript for templating, it uses JSX. JSX is a simple JavaScript that allows HTML syntax in JavaScript. HTML syntax is processed into JavaScript objcet by Babel transpiler. Then it renders that object on React DOM. According to change on react DOM it re render the changed part on actual DOM. So it has good performance result because it done its job at shorter time. React done this complete process by diff algorithom.</p>
                 </article>
+
+                {/* Props Vs State */}
+
                 <article className="blog">
                     <h1>Props Vs State</h1>
                     <p>Props and State can be used to pass data between components.
