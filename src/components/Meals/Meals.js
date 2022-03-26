@@ -74,12 +74,10 @@ const Meals = () => {
                     </div>
                     <div>
                         <h2>Random Selector</h2>
-                        {
-                            <RandomItem
-                                key={randomSelect.id}
-                                randomSelect={randomSelect}
-                            ></RandomItem>
-                        }
+                        <RandomItem
+                            key={randomSelect.id}
+                            randomSelect={randomSelect}
+                        ></RandomItem>
                         <button className="random-btn" onClick={() => randomChoose(cart)}>Choose For Me</button>
                         <button className="reset-btn" onClick={() => resetAll(cart, randomSelect)}>Reset</button>
                     </div>
