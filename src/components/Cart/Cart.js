@@ -7,7 +7,7 @@ const Cart = ({ meal }) => {
 
     return (
         <div>
-            <div className="cart">
+            <div style={{ display: 'flex', marginBottom: '20px' }} className="cart">
                 <img src={img} alt="" />
                 <h4>{name}</h4>
             </div>
